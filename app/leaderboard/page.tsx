@@ -4,13 +4,12 @@ import Navbar from "../components/Navbar";
 
 export default function page() {
  return (
-//  <div className='h-screen w-full'>
-//      <UserRank />
-//  </div>
-<div className="flex flex-col min-h-screen w-full">
-      <div className="h-16 mb-7 w-full Large:h-24"><Navbar pageName="leaderboard" /></div>
-            <div className='h-screen w-full '>
-              <UserRank />
+
+<div className="flex flex-col justify-between items-center h-screen min-h-screen min-w-screen object-cover">
+      <div className="h-16 w-full Large:h-24"><Navbar pageName="RANK" /></div>
+            <div className='h-[80%] min-h-[600px] medium:min-h-[700px] m-auto w-[410px] medium:w-[80%] mt-11  flex   items-center'>     
+                  <UserRank   />
+               
             </div>
             </div>
  );
