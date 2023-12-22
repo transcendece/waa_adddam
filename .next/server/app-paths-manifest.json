@@ -1,6 +1,4 @@
 {
-  "/leaderboard/page": "app/leaderboard/page.js",
-  "/setting/page": "app/setting/page.js",
   "/channelSet/page": "app/channelSet/page.js",
   "/rank/page": "app/rank/page.js"
 }
